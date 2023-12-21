@@ -13,7 +13,7 @@ def run_telegram_bot():
     # updater.idle()
 
 def run_discord_bot():
-    token = 'MTE4NzI0OTQ0NDQ5Njg4MzczMg.GE-_kY.su09d5ZtJHt0Ll9H2Wi2Trz6eGhbz5ZT8LaxeA'
+    token = 'YOUR_DISCORD_TOKEN'
     client.run(token)
 
 def handle_message(update, context):
@@ -35,8 +35,7 @@ async def on_ready():
 
 async def send_telegram_messages():
     await client.wait_until_ready()
-    #channel = client.get_channel(YOUR_DISCORD_CHANNEL_ID)  # 替換為您的頻道ID
-    channel = client.get_channel(1187106541950738464)  # 替換為您的頻道ID
+    channel = client.get_channel(YOUR_DISCORD_CHANNEL_ID)  # 替換為您的頻道ID
     while not client.is_closed():
         # 檢查是否有新消息
         if os.path.exists('telegram_messages.txt'):
