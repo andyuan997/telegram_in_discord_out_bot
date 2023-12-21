@@ -5,7 +5,7 @@ import asyncio
 import threading
 
 def run_telegram_bot():
-    TOKEN = '6898476769:AAGb2pZiqgkvLqh_TsZTRraPg8ii-ylVEuo'
+    TOKEN = 'YOUR_TELEGRAM_TOKEN'
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(MessageHandler(Filters.text, handle_message))
