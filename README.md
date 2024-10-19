@@ -31,4 +31,4 @@ This project effectively bridges communication between Telegram and Discord, all
 
 Feel free to adjust the description to better fit your project's specifics or to highlight any particular challenges or solutions you encountered.
 
-website: https://andy-pro.com/discord%e6%a9%9f%e5%99%a8%e4%ba%ba-%e5%8d%b3%e6%99%82%e8%92%90%e9%9b%86telegram%e5%90%88%e7%b4%84%e5%b8%b6%e5%96%ae%e7%be%a4%e7%99%bc%e4%bd%88%e7%9a%84%e8%b3%87%e8%a8%8a/
+[website](https://slothdevelop.com/discord%e6%a9%9f%e5%99%a8%e4%ba%ba-%e5%8d%b3%e6%99%82%e8%92%90%e9%9b%86telegram%e5%90%88%e7%b4%84%e5%b8%b6%e5%96%ae%e7%be%a4%e7%99%bc%e4%bd%88%e7%9a%84%e8%b3%87%e8%a8%8a/)
